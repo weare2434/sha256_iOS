@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		879AF328258A50C000B87666 /* sha256.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sha256.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		879AF328258A50C000B87666 /* sha256_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sha256_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		879AF32B258A50C000B87666 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		879AF32C258A50C000B87666 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		879AF32E258A50C000B87666 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 		879AF329258A50C000B87666 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				879AF328258A50C000B87666 /* sha256.app */,
+				879AF328258A50C000B87666 /* sha256_iOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,9 +81,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		879AF327258A50C000B87666 /* sha256 */ = {
+		879AF327258A50C000B87666 /* sha256_iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 879AF341258A50C100B87666 /* Build configuration list for PBXNativeTarget "sha256" */;
+			buildConfigurationList = 879AF341258A50C100B87666 /* Build configuration list for PBXNativeTarget "sha256_iOS" */;
 			buildPhases = (
 				879AF324258A50C000B87666 /* Sources */,
 				879AF325258A50C000B87666 /* Frameworks */,
@@ -93,9 +93,9 @@
 			);
 			dependencies = (
 			);
-			name = sha256;
+			name = sha256_iOS;
 			productName = sha256;
-			productReference = 879AF328258A50C000B87666 /* sha256.app */;
+			productReference = 879AF328258A50C000B87666 /* sha256_iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -111,7 +111,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 879AF323258A50C000B87666 /* Build configuration list for PBXProject "sha256" */;
+			buildConfigurationList = 879AF323258A50C000B87666 /* Build configuration list for PBXProject "sha256_iOS" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -124,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				879AF327258A50C000B87666 /* sha256 */,
+				879AF327258A50C000B87666 /* sha256_iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -301,7 +301,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.weare2434.sha256;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weare2434.sha256-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -321,7 +321,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.weare2434.sha256;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weare2434.sha256-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -331,7 +331,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		879AF323258A50C000B87666 /* Build configuration list for PBXProject "sha256" */ = {
+		879AF323258A50C000B87666 /* Build configuration list for PBXProject "sha256_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				879AF33F258A50C100B87666 /* Debug */,
@@ -340,7 +340,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		879AF341258A50C100B87666 /* Build configuration list for PBXNativeTarget "sha256" */ = {
+		879AF341258A50C100B87666 /* Build configuration list for PBXNativeTarget "sha256_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				879AF342258A50C100B87666 /* Debug */,

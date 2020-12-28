@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Users/hayao/00_development/sha256/sha256_iOS.xcodeproj">
    </FileRef>
 </Workspace>

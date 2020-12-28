@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "879AF327258A50C000B87666"
-               BuildableName = "sha256.app"
-               BlueprintName = "sha256"
-               ReferencedContainer = "container:sha256.xcodeproj">
+               BuildableName = "sha256_iOS.app"
+               BlueprintName = "sha256_iOS"
+               ReferencedContainer = "container:sha256_iOS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "879AF327258A50C000B87666"
-            BuildableName = "sha256.app"
-            BlueprintName = "sha256"
-            ReferencedContainer = "container:sha256.xcodeproj">
+            BuildableName = "sha256_iOS.app"
+            BlueprintName = "sha256_iOS"
+            ReferencedContainer = "container:sha256_iOS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "879AF327258A50C000B87666"
-            BuildableName = "sha256.app"
-            BlueprintName = "sha256"
-            ReferencedContainer = "container:sha256.xcodeproj">
+            BuildableName = "sha256_iOS.app"
+            BlueprintName = "sha256_iOS"
+            ReferencedContainer = "container:sha256_iOS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -20,7 +20,7 @@
 }
 
 - (NSString*)sha256:(NSString *)text{
-    NSLog(@"%@", text);
+    //NSLog(@"%@", text);
     const char *s = (char *)[text UTF8String];
     NSData *keyData=[NSData dataWithBytes:s length:strlen(s)];
      
@@ -28,13 +28,6 @@
     CC_SHA256(keyData.bytes, keyData.length, digest);
     NSData *out = [NSData dataWithBytes:digest length:CC_SHA256_DIGEST_LENGTH];
     NSString *hash = [self hexadecimalStringFromData:out];
-    return hash;
-    
-    hash = [hash stringByReplacingOccurrencesOfString:@" " withString:@""];
-    hash = [hash stringByReplacingOccurrencesOfString:@"<" withString:@""];
-    hash = [hash stringByReplacingOccurrencesOfString:@">" withString:@""];
-    hash = [hash stringByReplacingOccurrencesOfString:@"{length=32,bytes=0x" withString:@""];
-    hash = [hash stringByReplacingOccurrencesOfString:@"}" withString:@""];
     return hash;
 }
 
@@ -57,7 +50,7 @@
     if ([_tv.text  isEqual: @""]) return;
     _hashedValue.text = [self sha256:_tv.text];
     [[UIPasteboard generalPasteboard] setValue:_hashedValue.text forPasteboardType:@"public.utf8-plain-text"];
-    NSLog(@"%@", _hashedValue.text);
+    //NSLog(@"%@", _hashedValue.text);
     _message.text = @"copied to the clipboard";
 }
 @end
